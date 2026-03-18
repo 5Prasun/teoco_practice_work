@@ -101,7 +101,7 @@ int main() {
 
 int numTowers;
 
-std::cout << "How many tower coordinates do you want to enter? ";
+std::cout << "tower coordinates number: ";
 std::cin >> numTowers;
 
 std::set<std::string> finalTiles;
@@ -140,7 +140,7 @@ for (int t = 0; t < numTowers; t++) {
 }
 
     // ---- Final result ----
-    std::cout << "\nTiles required for all towers:\n";
+    std::cout << "\nTiles required for all number of  towers:\n";
 
     for (const auto& tile : finalTiles)
         std::cout << tile << std::endl;
